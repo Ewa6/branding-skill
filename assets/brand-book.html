@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Brand book — reusable starter</title>
+<link rel="stylesheet" href="../tokens.css">
+<style>
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--color-background);color:var(--color-ink);font:var(--size-body)/var(--line-height-body) var(--font-text)}
+a{color:var(--color-primary-text);text-underline-offset:.2em}
+a:focus-visible{outline:3px solid var(--color-primary);outline-offset:4px}
+.shell{max-width:1160px;margin:auto;padding:var(--space-5) var(--space-4)}
+.top{display:flex;justify-content:space-between;gap:var(--space-3);flex-wrap:wrap;border-bottom:1px solid var(--color-line);padding-bottom:var(--space-3)}
+.eyebrow{font-size:var(--size-label);letter-spacing:.1em;text-transform:uppercase;font-weight:700}
+.status{font-size:var(--size-small);color:var(--color-muted)}
+nav{display:flex;flex-wrap:wrap;gap:.6rem 1.4rem;padding-block:var(--space-3);font-size:var(--size-small)}
+.cover{padding:clamp(2.5rem,8vw,7rem) 0}
+h1,h2,h3{font-family:var(--font-display);font-weight:var(--weight-display);line-height:var(--line-height-heading)}
+h1{font-size:var(--size-h1);max-width:16ch;margin:0 0 var(--space-4)}
+h2{font-size:var(--size-h2);margin:.3rem 0 var(--space-4)}
+h3{font-size:var(--size-h3);margin:.25rem 0 var(--space-3)}
+p{max-width:70ch}
+.lede{max-width:55ch;font-size:1.15rem}
+section{border-top:1px solid var(--color-line);padding:var(--space-5) 0;scroll-margin-top:1rem}
+.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:var(--space-3)}
+.grid.two{grid-template-columns:repeat(2,minmax(0,1fr))}
+.card{min-width:0;background:var(--color-surface);padding:var(--space-4);border:1px solid var(--color-line);border-radius:var(--radius-card)}
+.card p:last-child{margin-bottom:0}
+.specimen{display:flex;align-items:center;justify-content:center;min-height:140px;font-family:var(--font-display);font-size:1.8rem}
+.dark{background:var(--color-primary);color:var(--color-on-primary)}
+.swatches{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:var(--space-3)}
+.swatch{height:96px;border:1px solid var(--color-line);border-radius:var(--radius-card)}
+.swatches p{font-size:var(--size-small)}
+.sample-heading{font-family:var(--font-display);font-size:clamp(1.8rem,4vw,3rem);line-height:1.2}
+.sample-small{font-size:var(--size-small)}
+table{border-collapse:collapse;width:100%;table-layout:fixed;font-size:var(--size-small)}
+th,td{text-align:left;border-bottom:1px solid var(--color-line);padding:.7rem .5rem;vertical-align:top;overflow-wrap:anywhere}
+th{font-weight:700}
+img,svg{max-width:100%;height:auto}
+code{overflow-wrap:anywhere}
+.note{border-left:3px solid var(--color-primary);padding-left:var(--space-3);color:var(--color-muted)}
+footer{border-top:1px solid var(--color-line);padding:var(--space-4) 0}
+@media(max-width:640px){
+ .shell{padding:var(--space-4) var(--space-3)}
+ .grid,.grid.two{grid-template-columns:1fr}
+ .swatches{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .lede{font-size:var(--size-body)}
+}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+@page{size:A4;margin:var(--print-margin)}
+@media print{
+ body{font-size:var(--print-body);background:var(--color-surface);print-color-adjust:exact;-webkit-print-color-adjust:exact}
+ .shell{padding:0;max-width:none}
+ nav{display:none}
+ .cover{padding:16mm 0}
+ h1{font-size:var(--print-h1)}
+ h2{font-size:20pt}
+ h3{font-size:14pt}
+ section{padding:8mm 0;break-before:page}
+ h2,h3,.eyebrow{break-after:avoid}
+ .card,figure,tr,.swatches{break-inside:avoid}
+ .grid{gap:4mm}
+ .card{padding:4mm}
+ .status,.sample-small,table,.swatches p{font-size:var(--print-small)}
+ .specimen{min-height:30mm;font-size:20pt}
+ .sample-heading{font-size:24pt}
+ a{color:inherit}
+}
+</style>
+</head>
+<body>
+<div class="shell">
+<header class="top"><strong>Brand name</strong><span class="status">Template · version and approval status</span></header>
+<nav aria-label="Brand book chapters">
+<a href="#essence">Essence</a><a href="#voice">Voice</a><a href="#logo">Logo</a>
+<a href="#colour">Colour</a><a href="#type">Type</a><a href="#graphics">Graphics</a>
+<a href="#applications">In use</a><a href="#production">Production</a><a href="#downloads">Downloads</a>
+</nav>
+<div class="cover">
+<p class="eyebrow">Brand book · editable starter</p>
+<h1>A clear identity, ready to use.</h1>
+<p class="lede">Replace this demonstration with the brand's approved promise, visual language and actual source assets.</p>
+<p class="status">Edition date · responsible owner · current decision source</p>
+</div>
+<main>
+<section id="essence">
+<p class="eyebrow">01 · Brand essence</p><h2>What we stand for</h2>
+<p>Write the product, audience and credible benefit in a short paragraph. Explain what makes this brand a meaningful choice.</p>
+<div class="grid">
+<article class="card"><h3>Audience</h3><p>Who needs it, in what situation, and what matters to them.</p></article>
+<article class="card"><h3>Promise</h3><p>The value the product can deliver, with the evidence supporting it.</p></article>
+<article class="card"><h3>Difference</h3><p>The distinctive approach compared with the audience's current alternative.</p></article>
+</div>
+</section>
+<section id="voice">
+<p class="eyebrow">02 · Verbal identity</p><h2>How the brand speaks</h2>
+<p>Write the central message and voice principles. Add accepted tagline wording and its status.</p>
+<div class="grid">
+<article class="card"><h3>Voice trait one</h3><p>Show its practical meaning and where it would go too far.</p></article>
+<article class="card"><h3>Voice trait two</h3><p>Show its practical meaning and where it would go too far.</p></article>
+<article class="card"><h3>Voice trait three</h3><p>Show its practical meaning and where it would go too far.</p></article>
+</div>
+<h3>Copy in context</h3>
+<table><thead><tr><th>Moment</th><th>On-voice example</th><th>Why it works</th></tr></thead>
+<tbody>
+<tr><td>First use</td><td>Insert a real short welcome and action.</td><td>Connect the wording to a voice principle.</td></tr>
+<tr><td>Ordinary action</td><td>Insert an actual product instruction.</td><td>Keep the next step clear.</td></tr>
+<tr><td>Failure</td><td>Say what happened and what can truthfully happen next.</td><td>Verify actual product behavior.</td></tr>
+</tbody></table>
+<p>Add the vocabulary, do/don't rewrites and localization rules, linking the standalone voice guide.</p>
+</section>
+<section id="logo">
+<p class="eyebrow">03 · Logo</p><h2>The identifying mark</h2>
+<!-- Replace these text specimens with the actual master and accepted variants. -->
+<div class="grid two">
+<figure class="card"><div class="specimen">Primary lockup</div><figcaption>Insert the actual vector master.</figcaption></figure>
+<figure class="card dark"><div class="specimen">Reversed lockup</div><figcaption>Insert the actual reversed master.</figcaption></figure>
+</div>
+<h3>Usage</h3>
+<table><thead><tr><th>Rule</th><th>Specification</th><th>Evidence/status</th></tr></thead>
+<tbody>
+<tr><td>Clear space</td><td>Define it using a visible logo unit.</td><td>Show a measured diagram.</td></tr>
+<tr><td>Minimum size</td><td>State screen and applicable print minima.</td><td>Record actual small-size review and approval.</td></tr>
+<tr><td>Backgrounds</td><td>List allowed variants and surfaces.</td><td>Include correct and misuse examples.</td></tr>
+</tbody></table>
+</section>
+<section id="colour">
+<p class="eyebrow">04 · Colour</p><h2>A palette with clear roles</h2>
+<p>These are neutral demonstration tokens. Replace them and populate verified values and role guidance.</p>
+<div class="swatches">
+<div><div class="swatch" style="background:var(--color-primary)"></div><p>Primary<br><code>--color-primary</code></p></div>
+<div><div class="swatch" style="background:var(--color-secondary)"></div><p>Secondary<br><code>--color-secondary</code></p></div>
+<div><div class="swatch" style="background:var(--color-accent)"></div><p>Accent<br><code>--color-accent</code></p></div>
+<div><div class="swatch" style="background:var(--color-ink)"></div><p>Ink<br><code>--color-ink</code></p></div>
+<div><div class="swatch" style="background:var(--color-background)"></div><p>Background<br><code>--color-background</code></p></div>
+</div>
+<table><thead><tr><th>Pair/role</th><th>Measured ratio</th><th>Permitted use / limitations</th></tr></thead>
+<tbody><tr><td>Populate actual text and essential-boundary pairs.</td><td>Calculate from canonical values.</td><td>Use unrounded values for threshold decisions.</td></tr></tbody></table>
+</section>
+<section id="type">
+<p class="eyebrow">05 · Typography</p><h2>Real type, at useful sizes</h2>
+<p class="sample-heading">A headline with its own character</p>
+<p>Body sample: clear practical text with a realistic sentence, numbers 0123456789 and the supported languages' characters.</p>
+<p class="sample-small">Language specimen: ą ć ę ł ń ó ś ź ż · Ą Ć Ę Ł Ń Ó Ś Ź Ż. Replace/add characters for this brand.</p>
+<table><thead><tr><th>Role</th><th>Family / style / size</th><th>Use</th></tr></thead>
+<tbody><tr><td>Display</td><td>Insert actual licensed family and scale.</td><td>Headlines</td></tr>
+<tr><td>Practical text</td><td>Insert actual family, weight, line height.</td><td>Body, labels and counts</td></tr></tbody></table>
+<p class="note">The starter uses system fonts. Add permitted local font files, genuine styles and source licences for the finished book.</p>
+</section>
+<section id="graphics">
+<p class="eyebrow">06 · Graphic system</p><h2>Elements that belong together</h2>
+<div class="grid">
+<article class="card"><h3>Signature components</h3><p>Show reusable anatomy, spacing and allowed variation.</p></article>
+<article class="card"><h3>Utility icons</h3><p>Insert the individual SVG family with meaning and small-size specimens.</p></article>
+<article class="card"><h3>Pictures and themes</h3><p>If applicable, show the family style, crop/background rules and optional accents.</p></article>
+</div>
+</section>
+<section id="applications">
+<p class="eyebrow">07 · In use</p><h2>The identity doing its job</h2>
+<p>Insert actual examples for the chosen channels. Include realistic long/full content and the relevant quiet or failure state.</p>
+<div class="grid two">
+<article class="card"><h3>Primary surface</h3><p>Replace with a finished representative application and editable-source link.</p></article>
+<article class="card"><h3>A demanding state</h3><p>Show the state that tested the system and what it taught.</p></article>
+</div>
+</section>
+<section id="production">
+<p class="eyebrow">08 · Production</p><h2>Specifications and verification</h2>
+<p>State actual digital formats and, when relevant, page dimensions, usable areas, print mode and calibration instructions.</p>
+<table><thead><tr><th>Item</th><th>Verified</th><th>Open action</th></tr></thead>
+<tbody><tr><td>Populate from QA.</td><td>Give evidence and exact artifact version.</td><td>Separate external tests from completed digital checks.</td></tr></tbody></table>
+</section>
+<section id="downloads">
+<p class="eyebrow">09 · Files and rights</p><h2>Use the system</h2>
+<!-- Replace/add actual file links only after those assets exist. -->
+<ul><li><a href="../tokens.css">Canonical tokens starter</a></li></ul>
+<p>Add working relative links to the actual logo exports, voice guide, sources, fonts, licences, asset inventory and curated archive.</p>
+<p>Record creators, sources, licence terms, version and approval scope. Remove all starter guidance before delivering a final brand book.</p>
+</section>
+</main>
+<footer class="status">Brand name · edition date · owner · exact final/working status</footer>
+</div>
+</body>
+</html>

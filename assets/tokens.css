@@ -1,0 +1,39 @@
+/* NEUTRAL DEMONSTRATION VALUES. Replace for the selected brand.
+   Canonical source for book/specimens; integrate with an existing token system when appropriate.
+   No font identity, contrast approval or print specification is implied. */
+:root {
+  --color-background: #f5f5f2;
+  --color-surface: #ffffff;
+  --color-primary: #315d65;
+  --color-primary-text: #23454b;
+  --color-secondary: #d9e8e6;
+  --color-accent: #e6dcba;
+  --color-ink: #202b2d;
+  --color-muted: #4d5c60;
+  --color-line: #cad2d1;
+  --color-functional-line: #64777a;
+  --color-on-primary: #ffffff;
+  --font-display: Georgia, serif;
+  --font-text: Arial, sans-serif;
+  --weight-display: 400;
+  --size-label: .75rem;
+  --size-small: .875rem;
+  --size-body: 1rem;
+  --size-h3: 1.25rem;
+  --size-h2: 1.8rem;
+  --size-h1: clamp(2.25rem, 6vw, 4.5rem);
+  --line-height-body: 1.6;
+  --line-height-heading: 1.12;
+  --space-1: .25rem;
+  --space-2: .5rem;
+  --space-3: 1rem;
+  --space-4: 1.5rem;
+  --space-5: 2.5rem;
+  --radius-card: .75rem;
+  --print-body: 10pt;
+  --print-small: 8.5pt;
+  --print-h1: 28pt;
+  --print-margin: 14mm;
+}
+/* Supply explicit monochrome rules for actual print variants.
+   Do not globally turn all colour print exports into grayscale. */
