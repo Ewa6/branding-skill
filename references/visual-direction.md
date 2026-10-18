@@ -1,6 +1,6 @@
 # Visual direction through controlled comparisons
 
-Read current brief, voice, decisions and owner references. If an identity is already chosen, refine it rather than restarting with unrelated routes.
+Read current brief, voice, decisions and owner references. If an identity is already chosen, refine it unless the agreed rebranding scope authorizes replacement. For rebranding, use the current identity as a comparison baseline and hold retained components fixed; explore only the changes justified by the brief.
 
 Write a short art-direction paragraph: composition, palette roles, typography character, shapes, image treatment, material and spacing. Include project exclusions only. Use [the prompt template](../assets/mood-board-prompt.md) for raster studies where useful.
 

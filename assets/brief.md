@@ -2,6 +2,8 @@
 
 Date/version:
 Status and decision source:
+Entry path: [new brand / continuation / rebranding]
+Rebranding reason and plan link, if applicable:
 
 ## Product and positioning
 - Product in one sentence:

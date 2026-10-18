@@ -4,7 +4,9 @@
 
 Inspect the actual supplied reference. Record its source path, dimensions and hash when useful. Determine whether the task is preserve, refine or redesign. Do not reopen a selected logo because a generic checklist asks for three concepts.
 
-If only a small bitmap exists, use it unchanged for studies. Do not guess its font, swap in the headline font, independently crop an icon or wrap it in an SVG and call that a vector master. A faithful reconstruction is design work: compare silhouettes, slant, proportion, spacing, baseline, colour split and wordmark against the reference at enlarged and intended sizes.
+For rebranding, use the component scope in `rebranding-plan.md`. A retained mark needs fidelity; an authorized replacement needs a new master and comparison against the old identity. If replacement is in scope, missing editable files for the old logo need not block a new design. Keep the original untouched as evidence and distinguish a new logo from reconstruction.
+
+For a logo being retained, if only a small bitmap exists, use that source unchanged in studies. Do not guess its font, swap in the headline font, independently crop an icon or wrap it in an SVG and call that a vector master. A faithful reconstruction is design work: compare silhouettes, slant, proportion, spacing, baseline, colour split and wordmark against the reference at enlarged and intended sizes.
 
 If the owner wants exact preservation and you cannot reproduce it faithfully, obtain the source or ask for the specific permission needed to redraw/change it. Continue other work. A missing faithful master is an explicit final-logo blocker.
 

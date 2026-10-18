@@ -17,6 +17,7 @@ Package status:
 | Physical trial, if relevant | Actual device/stock/100% measurement | | |
 | Brand book HTML / PDF | Links, offline assets, mobile/desktop, every PDF page | | |
 | Final package | Privacy/licences, allowlist, clean extraction | | |
+| Rebranding, if relevant | Agreed change scope, retained-asset fidelity, old-to-new mapping and actual rollout status | | |
 
 Use passed / failed / unverified / not applicable. Visual review, calculated checks,
 owner approval, AI critique and physical evidence are different types of evidence.

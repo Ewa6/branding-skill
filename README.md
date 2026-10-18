@@ -1,6 +1,6 @@
 # Branding skill
 
-A reusable Codex workflow from product positioning to logo, verbal identity, visual system, real-use tests and a finished brand book. Start at [SKILL.md](SKILL.md). Templates are intentionally unfinished; the skill instructs Codex to fill and verify them for each brand.
+A reusable Codex workflow for new branding, continuation and rebranding, from product positioning to logo, verbal identity, visual system, real-use tests and a finished brand book. Start at [SKILL.md](SKILL.md). Templates are intentionally unfinished; the skill instructs Codex to fill and verify them for each brand.
 
 The source folder retains the owner's name `branding_skill`. The installation folder and ZIP root are `branding-skill`, matching the skill's frontmatter.
 
@@ -16,11 +16,18 @@ Keep the references, assets and agents folders with SKILL.md. A leading dot does
 
 > Use $branding-skill for this project. Read the existing decisions and help me complete its branding.
 
+For an existing brand:
+
+> Use $branding-skill to rebrand this project. Audit the current identity and help me decide what to keep and what to change.
+
+The rebranding path starts with reasons, evidence and the depth of change. It joins the same production workflow, with an old-to-new asset map and transition plan. A visual refresh can keep the name and positioning; a broader rebrand can reopen them within the agreed scope.
+
 The skill adapts to existing work, asks for material choices, and continues authorized production without an approval request at every mechanical step. Outputs normally go in the project's `brand/` folder. Installing it does not publish a brand or change any other project.
 
 ## Included
 
 - Focused entrypoint and references for each phase.
+- Rebranding audit, retain/change decisions and transition-plan template.
 - Art director, design challenger, verifier and optional simulated-viewer roles.
 - Brief, decision, voice, prompt, tokens, asset register, delivery and QA templates.
 - Responsive HTML brand-book starter.

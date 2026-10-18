@@ -1,6 +1,6 @@
 # Naming when the name is open
 
-Skip ideation if the owner has chosen a name. Offer proportionate screening if it is missing; do not delay unrelated branding while waiting on a blocked registry.
+Skip ideation if the existing name remains fixed. In a rebrand, reopen naming only when the owner has included it in the change scope; preserve spelling, domains and identifiers otherwise. Offer proportionate screening if it is missing; do not delay unrelated branding while waiting on a blocked registry.
 
 Write the naming brief from the product, audience, languages, desired feeling, commercial scope and owner's hard requirements. Do not assume one word, an available .com, no medical associations or bilingual pronunciation unless relevant.
 

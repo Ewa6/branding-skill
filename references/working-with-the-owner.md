@@ -33,6 +33,8 @@ Keep summaries short and plain. Show the work at useful size, state what changed
 
 Preserve a welcoming low-pressure experience when that is the product's intent. Do not make “warm and gentle” the default voice for every brand.
 
+In rebranding, ask what the owner values in the current identity and what they want to leave behind. Discuss attachment and commercial recognition separately; neither is proof of customer preference. Show the current baseline beside proposed changes and explain the tradeoff. Respect an explicitly chosen fresh start, and don't discard familiar elements merely to make the work look more extensive.
+
 ## Human-only evidence
 
 Physical printer trials, actual customer reactions and specialist opinions require those people or devices. Prepare test sheets, scripts and specific questions; record results only when supplied. Never turn an AI simulated viewer into a real participant. Do not contact people, buy services, register names or publish without the appropriate authorization.

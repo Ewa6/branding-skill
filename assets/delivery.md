@@ -19,6 +19,9 @@ Owner approval or delegated-choice scope:
 ## Use and edit
 [Canonical tokens, fonts, source files, export steps and licence locations.]
 
+## Transition, for rebranding
+[Link the rebranding plan, old-to-new mapping and rollout status. State which identity is live, which files are staged and which implementation actions remain pending. Omit this section for a new brand.]
+
 ## Verification
 [What was tested, artifact versions, intended sizes and QA link.]
 

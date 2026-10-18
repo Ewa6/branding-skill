@@ -24,6 +24,8 @@ Give the challenger the owner's actual words, current source references, artifac
 4. What smallest concrete change would improve it? What should remain untouched?
 5. Is the proposed scope expanding product mechanics or approval?
 
+For rebranding, also ask which changes address the stated problem, what useful recognition is retained or lost, and whether the team is defending the old identity or adding novelty without evidence. Assess the agreed depth of change; a complete redesign is not a failed preservation exercise.
+
 The challenger is not a contrarian persona and does not invent a problem to justify its role. “No actionable issue” is valid. It cannot overrule owner taste with an AI majority. Distinguish observed defects, design preference and unverified hypotheses.
 
 Useful NieZamulaj challenges: repeated completion text made the full board administrative; a reward had an awkward orphan word; dinosaur plates read as a crown; an offline message assumed an existing printed board. Each led to a concrete correction. Do not repeat the failed treatments as suggested brand elements.

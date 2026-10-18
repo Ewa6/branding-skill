@@ -17,6 +17,8 @@ For a full brand scope, include:
 
 Omit inapplicable extras; don't treat a picture library or print pack as mandatory for a service brand that needs neither. Do not add business cards, social campaigns, packaging, domain registration or production website work without scope.
 
+For rebranding, include `rebranding-plan.md` with component decisions, old-to-new asset mapping, affected touchpoints and the agreed transition approach. Keep original baselines/history outside the current production set. Document which identity is live and which replacement is approved or staged. Preparing a transition does not authorize site edits, account renaming, redirects, announcements or deployment; execute them only when included in the owner's authorization. Unexecuted rollout work does not invalidate a finished design package, but must remain clearly pending.
+
 ## Final pass
 
 1. Reconcile current decisions and references. Remove obsolete prompts and rejected designs from the production package.

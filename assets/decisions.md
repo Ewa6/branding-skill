@@ -2,6 +2,8 @@
 
 Latest human instruction wins. Record evidence and scope; do not infer approval from silence.
 
+For rebranding, link the baseline and component scope in `rebranding-plan.md`. Distinguish approval of a replacement design from activation: record the identity currently live, staged replacements and actual rollout evidence.
+
 ## Current index
 | Component | Current choice | Status | Decision ID | Current files |
 | --- | --- | --- | --- | --- |

@@ -2,6 +2,8 @@
 
 Use [the brief template](../assets/brief.md). Read project artifacts and the current decisions first.
 
+Identify whether this is a new brand, continuation or rebrand. For a refresh/rebrand, read [rebranding.md](rebranding.md), establish the current baseline and change scope, then update only the affected positioning and identity decisions. Do not make a full rediscovery exercise mandatory for a bounded visual refresh.
+
 Capture enough to make design choices:
 - Product: what it does, for whom, in what real situation.
 - Need and benefit: the audience's problem and the specific value the product can credibly offer.
